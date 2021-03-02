@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "change-detection-demo"
+  "defaultProject": "change-detection-demo",
+  "cli": {
+    "analytics": "c9de8ff0-c2cc-453e-a90e-68db8f2c01d9"
+  }
 }

@@ -37,7 +37,9 @@ export class SimpleDemoComponent implements OnInit {
   }
 
   triggerSetTimeout() {
-    setTimeout(() => {});
+    setTimeout(() => {
+      console.log('Execute setTimeout...')
+    }, 3000);
   }
 
   triggerTick() {

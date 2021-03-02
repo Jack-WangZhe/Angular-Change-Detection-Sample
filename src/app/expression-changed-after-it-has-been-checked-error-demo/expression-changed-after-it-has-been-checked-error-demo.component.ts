@@ -18,5 +18,8 @@ export class ExpressionChangedAfterItHasBeenCheckedErrorDemoComponent
 
   ngAfterViewInit(): void {
     this.hero.name = 'Another name which triggers ExpressionChangedAfterItHasBeenCheckedError';
+    // setTimeout(()=> {
+    //   this.hero.name = 'Another name which triggers ExpressionChangedAfterItHasBeenCheckedError';
+    // })
   }
 }
